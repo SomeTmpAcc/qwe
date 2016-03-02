@@ -30,7 +30,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        //Just something
+        //J
         Intent intent = getIntent();
         String message = intent.getStringExtra(MyActivity.EXTRA_MESSAGE);
         TextView textView = new TextView(this);
